@@ -8,6 +8,8 @@ Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
+Content/__ExternalActors_/
+
 
 # Baked lighting data (regenerate with Build > Build Lighting)
 *_BuiltData.uasset
