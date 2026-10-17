@@ -2,12 +2,15 @@
 
 # Build artifacts
 Binaries/
-Build/
+/Build/
 
 # Cache and temporary files
 DerivedDataCache/
 Intermediate/
 Saved/
+
+# Baked lighting data (regenerate with Build > Build Lighting)
+*_BuiltData.uasset
 
 # Logs and temp files
 *.log
@@ -18,11 +21,12 @@ Saved/
 *.suo
 *.userprefs
 *.o
-*.obj
-*.pdb
-*.exe
-*.dll
-*.lib
+
+# Visual Studio
+.vs/
+*.sln
+*.VC.db
+*.opendb
 
 # Backup files
 *.bak
